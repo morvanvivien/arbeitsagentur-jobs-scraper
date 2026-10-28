@@ -123,7 +123,7 @@ The complete file is [`examples/run.py`](examples/run.py). Never put your token 
 
 ### 4. REST API on RapidAPI, one key for all your APIs
 
-If you already use RapidAPI, the same data is available as a plain REST API with monthly plans and a free tier: [german-jobs-arbeitsagentur on RapidAPI](https://rapidapi.com/VivienMORVAN/api/german-jobs-arbeitsagentur). No Apify account needed, billing goes through your RapidAPI subscription.
+If you already use RapidAPI, the same data is available as a plain REST API with monthly plans and a free tier: [german-jobs-arbeitsagentur on RapidAPI](https://rapidapi.com/VivienMORVAN/api/german-jobs-arbeitsagentur), also listed on [Zyla API Hub](https://zylalabs.com/api-marketplace/company+data/german+jobs+arbeitsagentur+api/14511). No Apify account needed, billing goes through your marketplace subscription.
 
 ```bash
 curl -X POST "https://german-jobs-arbeitsagentur.p.rapidapi.com/v2/acts/bibian~arbeitsagentur-jobs-scraper/run-sync-get-dataset-items?clean=true" \
